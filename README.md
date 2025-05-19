@@ -1,3 +1,6 @@
+
+﻿<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=10&section=header" width="1080" align="center"/>
+
 # Nebula: A High-Performance, Lightweight Torrent Client
 Nebula is a cross-platform, blazing-fast BitTorrent client crafted for modern desktops. With its modular architecture and rock-solid performance, Nebula delivers an elegant, smooth experience for power users and casual downloaders alike.
 
@@ -9,6 +12,7 @@ Nebula is a cross-platform, blazing-fast BitTorrent client crafted for modern de
 - Feature-Rich: Supports magnet links, file-level selection, RSS auto-downloads, and global/per-torrent bandwidth caps.
 - Secure & Sandboxed: Leverages Tauri’s default security model with minimal privileges and isolated native code.
 - Extensible Architecture: Cleanly separated layers—C++ core, Rust bridge, and React frontend—for ultimate flexibility.
+
 
 ## 🛠 Technology Stack
 
@@ -26,6 +30,8 @@ Nebula is a cross-platform, blazing-fast BitTorrent client crafted for modern de
 | CI/CD            | GitHub Actions: Automates cross-platform build, test, and release workflows.        |
 
 
+
+﻿<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=10&section=header" width="1080" align="center"/>
 
 ## 📂 Detailed Folder Structure
 
@@ -156,7 +162,7 @@ Nebula’s architecture is built for efficiency and clarity:
 Events flow back to the UI for real-time updates.
 
 
-## 🧪 Testing & QA
+### 🧪 Testing & QA
 
 Backend (C++):
 ```sh
@@ -173,16 +179,28 @@ cd frontend && npm run lint && npm run test
 
 - E2E Tests: Run Cypress/Playwright tests in `frontend/e2e/.`
 
-## 📈 CI/CD Pipelines
+### 📈 CI/CD Pipelines
 
 - CI (`ci.yml`): Lints, builds, and tests across Linux, macOS, and Windows on push/PR.
 - Release (`release.yml`): Tags a version, builds installers, and publishes to GitHub Releases.
 
-## 🤝 Contributing
 
-We’d love your help to make Nebula even better! Check out our contribution guidelines and code of conduct before diving in.
-CONTRIBUTING.md
+﻿<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=10&section=header" width="1080" align="center"/>
 
-## 📄 License
 
-This project is licensed under the MIT License. See LICENSE for details.
+### 🤝 Contributing
+
+We welcome all contributions! Whether it's fixing a typo or implementing a major feature, you're helping make the project better.
+
+📄 Read our [Contributing Guidelines](docs/CONTRIBUTING.md) to learn how to fork, branch, commit, and open pull requests the right way.
+
+---
+
+### 📚 Learning Resources
+
+Want to get up to speed before contributing?
+
+💡 Check out [What You Need to Know](docs/LEARNING.md) — a curated list of concepts, tools, and topics used in this project.
+
+
+﻿<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=10&section=header" width="1080" align="center"/>
